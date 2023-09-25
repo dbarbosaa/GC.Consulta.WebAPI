@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kKZCkeE+umNLlWjdLszxrYslrgLGZJltQwbfVaq1Qn0=",
+  "Source": "GC.Consulta.WebApi",
+  "BasePath": "_content/GC.Consulta.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

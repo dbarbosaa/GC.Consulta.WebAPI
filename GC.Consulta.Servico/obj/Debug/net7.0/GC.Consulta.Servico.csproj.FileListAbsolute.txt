@@ -1,0 +1,17 @@
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\bin\Debug\net7.0\GC.Consulta.Servico.deps.json
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\bin\Debug\net7.0\GC.Consulta.Servico.dll
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\bin\Debug\net7.0\GC.Consulta.Servico.pdb
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\bin\Debug\net7.0\GC.Consulta.Domain.dll
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\bin\Debug\net7.0\GC.Consulta.Infra.dll
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\bin\Debug\net7.0\GC.Consulta.Domain.pdb
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\bin\Debug\net7.0\GC.Consulta.Infra.pdb
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\obj\Debug\net7.0\GC.Consulta.Servico.csproj.AssemblyReference.cache
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\obj\Debug\net7.0\GC.Consulta.Servico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\obj\Debug\net7.0\GC.Consulta.Servico.AssemblyInfoInputs.cache
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\obj\Debug\net7.0\GC.Consulta.Servico.AssemblyInfo.cs
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\obj\Debug\net7.0\GC.Consulta.Servico.csproj.CoreCompileInputs.cache
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\obj\Debug\net7.0\GC.Consulta.Servico.csproj.CopyComplete
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\obj\Debug\net7.0\GC.Consulta.Servico.dll
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\obj\Debug\net7.0\refint\GC.Consulta.Servico.dll
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\obj\Debug\net7.0\GC.Consulta.Servico.pdb
+C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Servico\obj\Debug\net7.0\ref\GC.Consulta.Servico.dll

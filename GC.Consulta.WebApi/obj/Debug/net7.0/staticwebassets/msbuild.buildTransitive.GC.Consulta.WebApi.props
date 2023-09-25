@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\GC.Consulta.WebApi.props" />
+</Project>
