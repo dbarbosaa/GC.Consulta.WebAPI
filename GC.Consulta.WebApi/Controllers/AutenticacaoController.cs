@@ -7,6 +7,8 @@ using System.Security.Claims;
 using System.Text;
 using GC.Consulta.Domain.Entidade;
 using GC.Consulta.Servico.Interface;
+using GC.Consulta.Servico.Servico;
+using Microsoft.Extensions.Configuration;
 
 namespace GC.Consulta.WebApi.Controllers
 {
@@ -26,15 +28,15 @@ namespace GC.Consulta.WebApi.Controllers
         }
 
         /// <summary>
-        /// Autentica o usuário através do e-mail e senha
+        /// Autentica o usuário paciente através do e-mail e senha
         /// </summary>
         /// <returns>Token de acesso às APIs</returns>
-        [HttpPost]
-        public async Task<IActionResult> Validar([FromBody] Credenciais credenciais)
+        [HttpPost("LoginPaciente")]
+        public async Task<IActionResult> LoginPaciente([FromBody] Credenciais credenciais)
         {
             try
             {
-                Usuario usuario = await usuarioService.Validar(credenciais.Email, credenciais.Senha);
+                Usuario usuario = await usuarioService.LoginPaciente(credenciais.Email, credenciais.Senha);
                 Autenticacao tokenFinal = new Autenticacao();
                 string tokenJWT = string.Empty;
 
@@ -44,6 +46,62 @@ namespace GC.Consulta.WebApi.Controllers
                     {
                     new Claim(JwtRegisteredClaimNames.UniqueName, credenciais.Email),
                     new Claim("usuarioID", usuario.Id.ToString()),
+                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                };
+
+                    var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration.GetSection("TokenConfiguration")["Secret"]));
+                    var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+                    var expiration = DateTime.UtcNow.AddMonths(1);
+                    JwtSecurityToken token = new JwtSecurityToken(
+                       issuer: null,
+                       audience: null,
+                    claims: claims,
+                       expires: expiration,
+                       signingCredentials: creds);
+
+                    tokenJWT = new JwtSecurityTokenHandler().WriteToken(token);
+
+                    tokenFinal = new Autenticacao()
+                    {
+                        Token = tokenJWT,
+                        ExpirationDate = expiration,
+                        Usuario = usuario
+                    };
+
+                }
+                else
+                    return NotFound("Usuário não localizado com o email e senha informados");
+
+                return Ok(tokenFinal);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// Autentica o usuário do colaborador através do e-mail e senha
+        /// </summary>
+        /// <returns>Token de acesso às APIs</returns>
+
+        [HttpPost("LoginColaborador")]
+        public async Task<IActionResult> LoginColaborador([FromBody] Credenciais credenciais)
+        {
+            try
+            {
+                Usuario usuario = await usuarioService.LoginColaborador(credenciais.Email, credenciais.Senha);
+                Autenticacao tokenFinal = new Autenticacao();
+                string tokenJWT = string.Empty;
+
+                if (usuario != null)
+                {
+                    var claims = new[]
+                    {
+                    new Claim(JwtRegisteredClaimNames.UniqueName, credenciais.Email),
+                    new Claim("usuarioID", usuario.Id.ToString()),
+
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
                 };
 

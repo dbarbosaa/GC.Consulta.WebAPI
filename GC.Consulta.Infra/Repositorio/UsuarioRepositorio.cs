@@ -12,6 +12,8 @@ namespace GC.Consulta.Infra.Repositorio
 
         }
 
-        public async Task<Usuario> Validar(string email, string senha) => await context.Usuario.Where(e => e.Email == email && e.Senha == senha).FirstOrDefaultAsync();
+        public async Task<Usuario> LoginPaciente(string email, string senha) => await context.Usuario.Where(e => e.Email == email && e.Senha == senha && e.Tipo==1 ).FirstOrDefaultAsync();
+        public async Task<Usuario> LoginColaborador(string email, string senha) => await context.Usuario.Where(e => e.Email == email && e.Senha == senha && e.Tipo == 2).FirstOrDefaultAsync();
+
     }
 }

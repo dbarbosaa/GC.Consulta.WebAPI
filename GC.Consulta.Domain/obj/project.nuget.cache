@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X7pY8Bq5PibRZ+UHe3Su3huqxV6cL4b7oWjKk85WK18czGoOUaytPtuhFL5xzHZHic052QVHY/SUxGwj2ZDeyw==",
+  "dgSpecHash": "H+cTTlTThitsutfbuK1l61nh/NxtqSDs9on3uyne2y0tyW/5TFTwQovZJMZy2lig0Lj8toaXLRjN8j/CwVcopQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\Downloads\\projeto_consulta_medicas\\GC.Consulta.WebAPI\\GC.Consulta.Domain\\GC.Consulta.Domain.csproj",
+  "projectFilePath": "C:\\Projetos\\gestaoConsulta\\GC.Consulta.WebAPI\\GC.Consulta.Domain\\GC.Consulta.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

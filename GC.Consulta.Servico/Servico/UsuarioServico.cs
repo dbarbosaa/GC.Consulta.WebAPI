@@ -11,9 +11,13 @@ namespace GC.Consulta.Servico.Servico
 
         }
 
-        public async Task<Usuario> Validar(string email, string senha)
+        public async Task<Usuario> LoginPaciente(string email, string senha)
         {
-            return await ((IUsuarioRepositorio)repositorio).Validar(email, senha);
+            return await ((IUsuarioRepositorio)repositorio).LoginPaciente(email, senha);
+        }
+        public async Task<Usuario> LoginColaborador(string email, string senha)
+        {
+            return await ((IUsuarioRepositorio)repositorio).LoginColaborador(email, senha);
         }
     }
 }

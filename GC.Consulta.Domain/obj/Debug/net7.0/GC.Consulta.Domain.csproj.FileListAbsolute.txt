@@ -9,3 +9,14 @@ C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta
 C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Domain\obj\Debug\net7.0\refint\GC.Consulta.Domain.dll
 C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Domain\obj\Debug\net7.0\GC.Consulta.Domain.pdb
 C:\Users\danie\Downloads\projeto_consulta_medicas\GC.Consulta.WebAPI\GC.Consulta.Domain\obj\Debug\net7.0\ref\GC.Consulta.Domain.dll
+C:\Projetos\gestaoConsulta\GC.Consulta.WebAPI\GC.Consulta.Domain\bin\Debug\net7.0\GC.Consulta.Domain.deps.json
+C:\Projetos\gestaoConsulta\GC.Consulta.WebAPI\GC.Consulta.Domain\bin\Debug\net7.0\GC.Consulta.Domain.dll
+C:\Projetos\gestaoConsulta\GC.Consulta.WebAPI\GC.Consulta.Domain\bin\Debug\net7.0\GC.Consulta.Domain.pdb
+C:\Projetos\gestaoConsulta\GC.Consulta.WebAPI\GC.Consulta.Domain\obj\Debug\net7.0\GC.Consulta.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\gestaoConsulta\GC.Consulta.WebAPI\GC.Consulta.Domain\obj\Debug\net7.0\GC.Consulta.Domain.AssemblyInfoInputs.cache
+C:\Projetos\gestaoConsulta\GC.Consulta.WebAPI\GC.Consulta.Domain\obj\Debug\net7.0\GC.Consulta.Domain.AssemblyInfo.cs
+C:\Projetos\gestaoConsulta\GC.Consulta.WebAPI\GC.Consulta.Domain\obj\Debug\net7.0\GC.Consulta.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\gestaoConsulta\GC.Consulta.WebAPI\GC.Consulta.Domain\obj\Debug\net7.0\GC.Consulta.Domain.dll
+C:\Projetos\gestaoConsulta\GC.Consulta.WebAPI\GC.Consulta.Domain\obj\Debug\net7.0\refint\GC.Consulta.Domain.dll
+C:\Projetos\gestaoConsulta\GC.Consulta.WebAPI\GC.Consulta.Domain\obj\Debug\net7.0\GC.Consulta.Domain.pdb
+C:\Projetos\gestaoConsulta\GC.Consulta.WebAPI\GC.Consulta.Domain\obj\Debug\net7.0\ref\GC.Consulta.Domain.dll

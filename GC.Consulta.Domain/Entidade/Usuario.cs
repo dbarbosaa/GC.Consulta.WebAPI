@@ -17,5 +17,8 @@ namespace GC.Consulta.Domain.Entidade
         [Column("Permissao")]
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public int Permissao { get; set; }
+
+        [Column("Tipo")]
+        public int Tipo { get; set; }
     }
 }

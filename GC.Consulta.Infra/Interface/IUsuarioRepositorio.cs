@@ -4,6 +4,9 @@ namespace GC.Consulta.Infra.Interface
 {
     public interface IUsuarioRepositorio : IRepositorio<Usuario>
     {
-        Task<Usuario> Validar(string email, string senha);
+        Task<Usuario> LoginPaciente(string email, string senha);
+
+        Task<Usuario> LoginColaborador(string email, string senha);
+
     }
 }

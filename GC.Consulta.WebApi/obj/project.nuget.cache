@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M0yZlLmAWC/ndfJmYnF6SHcIQdd1HhyCRYaPU7UhhCjm1hI53h3yi6z+Zx4C68wvDmzP4Ar1KJ4D2EwA1A7mhA==",
+  "dgSpecHash": "JBevpaeifqYlYw2dhBsnZU3LsfbMjIMhaDR1R6ObBXPTWc57x+sRcNrLx0UmNzGymmcCGQkSm0fDSCLcewThmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\Downloads\\projeto_consulta_medicas\\GC.Consulta.WebAPI\\GC.Consulta.WebApi\\GC.Consulta.WebApi.csproj",
+  "projectFilePath": "C:\\Projetos\\gestaoConsulta\\GC.Consulta.WebAPI\\GC.Consulta.WebApi\\GC.Consulta.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.9\\microsoft.aspnet.webapi.core.5.2.9.nupkg.sha512",

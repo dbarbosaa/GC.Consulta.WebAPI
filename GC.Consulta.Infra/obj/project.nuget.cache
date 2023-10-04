@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ys7JGaiFNYQw+0NVq4plZa+yLP7F0MVbAkGf9CtjIF1ifyh/YZZI47wQ8HtfcFNNNYTFQfUnf8RD9Ig9/ojAxQ==",
+  "dgSpecHash": "J4vzfT9sL/6szcrTnuSk61N3DPo2kv7DckHtx124Zq2VF+p3FQqmTVrc6MRGxsVeCOou76Fq7ueB+VT8aENBZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\Downloads\\projeto_consulta_medicas\\GC.Consulta.WebAPI\\GC.Consulta.Infra\\GC.Consulta.Infra.csproj",
+  "projectFilePath": "C:\\Projetos\\gestaoConsulta\\GC.Consulta.WebAPI\\GC.Consulta.Infra\\GC.Consulta.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

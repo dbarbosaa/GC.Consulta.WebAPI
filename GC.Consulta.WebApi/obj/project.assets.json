@@ -8571,11 +8571,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danie\\Downloads\\projeto_consulta_medicas\\GC.Consulta.WebAPI\\GC.Consulta.WebApi\\GC.Consulta.WebApi.csproj",
+      "projectUniqueName": "C:\\Projetos\\gestaoConsulta\\GC.Consulta.WebAPI\\GC.Consulta.WebApi\\GC.Consulta.WebApi.csproj",
       "projectName": "GC.Consulta.WebApi",
-      "projectPath": "C:\\Users\\danie\\Downloads\\projeto_consulta_medicas\\GC.Consulta.WebAPI\\GC.Consulta.WebApi\\GC.Consulta.WebApi.csproj",
+      "projectPath": "C:\\Projetos\\gestaoConsulta\\GC.Consulta.WebAPI\\GC.Consulta.WebApi\\GC.Consulta.WebApi.csproj",
       "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danie\\Downloads\\projeto_consulta_medicas\\GC.Consulta.WebAPI\\GC.Consulta.WebApi\\obj\\",
+      "outputPath": "C:\\Projetos\\gestaoConsulta\\GC.Consulta.WebAPI\\GC.Consulta.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8597,11 +8597,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\danie\\Downloads\\projeto_consulta_medicas\\GC.Consulta.WebAPI\\GC.Consulta.Infra\\GC.Consulta.Infra.csproj": {
-              "projectPath": "C:\\Users\\danie\\Downloads\\projeto_consulta_medicas\\GC.Consulta.WebAPI\\GC.Consulta.Infra\\GC.Consulta.Infra.csproj"
+            "C:\\Projetos\\gestaoConsulta\\GC.Consulta.WebAPI\\GC.Consulta.Infra\\GC.Consulta.Infra.csproj": {
+              "projectPath": "C:\\Projetos\\gestaoConsulta\\GC.Consulta.WebAPI\\GC.Consulta.Infra\\GC.Consulta.Infra.csproj"
             },
-            "C:\\Users\\danie\\Downloads\\projeto_consulta_medicas\\GC.Consulta.WebAPI\\GC.Consulta.Servico\\GC.Consulta.Servico.csproj": {
-              "projectPath": "C:\\Users\\danie\\Downloads\\projeto_consulta_medicas\\GC.Consulta.WebAPI\\GC.Consulta.Servico\\GC.Consulta.Servico.csproj"
+            "C:\\Projetos\\gestaoConsulta\\GC.Consulta.WebAPI\\GC.Consulta.Servico\\GC.Consulta.Servico.csproj": {
+              "projectPath": "C:\\Projetos\\gestaoConsulta\\GC.Consulta.WebAPI\\GC.Consulta.Servico\\GC.Consulta.Servico.csproj"
             }
           }
         }
