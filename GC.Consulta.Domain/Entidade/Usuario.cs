@@ -20,5 +20,9 @@ namespace GC.Consulta.Domain.Entidade
 
         [Column("Tipo")]
         public int Tipo { get; set; }
+
+        [Column("id_pessoa")]
+        [Required(ErrorMessage = "O campo {0} é obrigatório")]
+        public int PessoaId { get; set; }
     }
 }

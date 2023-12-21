@@ -5,6 +5,7 @@ namespace GC.Consulta.WebApi.Controllers
 {
     public class PessoaController : Controller<Pessoa>
     {
+
         public PessoaController(IPessoaServico service)  : base(service)
         {
 

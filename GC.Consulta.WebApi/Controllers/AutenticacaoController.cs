@@ -87,7 +87,7 @@ namespace GC.Consulta.WebApi.Controllers
         /// <returns>Token de acesso às APIs</returns>
 
         [HttpPost("LoginColaborador")]
-        public async Task<IActionResult> LoginColaborador([FromBody] Credenciais credenciais)
+        public async Task<IActionResult> LoginColaborador([FromBody] Credenciais credenciais)   
         {
             try
             {
